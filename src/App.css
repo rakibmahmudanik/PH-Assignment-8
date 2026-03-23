@@ -1,0 +1,19 @@
+.nav-active ul li {
+  cursor: pointer;
+}
+
+.nav-active a {
+  font-size: 1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-active a.active {
+  background-image: linear-gradient(#632ee3, #9f62f2);
+  color: transparent;
+  background-clip: text;
+  text-decoration: underline;
+  cursor: pointer;
+
+  /* border-bottom: 1px solid black;
+  border-radius: 0; */
+}
