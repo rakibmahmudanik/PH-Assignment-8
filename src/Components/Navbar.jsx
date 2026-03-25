@@ -45,12 +45,12 @@ const Navbar = () => {
           to="/"
           className="btn btn-ghost text-xl font-bold text-gradient text-transparent bg-clip-text flex items-center"
         >
-          <img className="w-7" src={Navlogo}></img>
-          <p>HERO.IO</p>
+          <img className="w-8" src={Navlogo}></img>
+          <p className="text-[1.2rem]">HERO.IO</p>
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">
+        <ul className="menu menu-horizontal px-1 ">
           <li>
             <NavLink to="/">Home</NavLink>
           </li>
@@ -62,12 +62,17 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-      <button className="btn text-white bg-gradient rounded-md  hover:bg-linear-to-l ">
+      <a
+        href="https://github.com/rakibmahmudanik"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="btn text-white bg-gradient rounded-md "
+      >
         <p className="flex justify-center items-center gap-1">
           <FontAwesomeIcon icon={faGithub} />
           <span>Contribute</span>
         </p>
-      </button>
+      </a>
     </div>
   );
 };

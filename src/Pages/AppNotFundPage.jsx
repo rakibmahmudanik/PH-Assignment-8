@@ -1,21 +1,22 @@
 import React from "react";
-import Navbar from "../Components/Navbar";
-import errorImg from "../assets/error-404.png";
-import { Link, useNavigate } from "react-router";
+import { useNavigate } from "react-router";
+import Notfundimg from "../assets/App-Error.png";
 
-const ErrorPage = () => {
+const AppNotFundPage = () => {
   const nevigate = useNavigate();
+
   return (
     <div>
       <Navbar></Navbar>
       <div className="hero bg-base-200 min-h-[90vh]">
         <div className="hero-content text-center">
           <div className="max-w-md">
-            <img className="mb-10 mx-auto" src={errorImg} width="300px"></img>
+            <img className="mb-10 mx-auto" src={Notfundimg} width="300px"></img>
             <div>
-              <h1 className="text-4xl font-bold">Oops, page not found!</h1>
+              <h1 className="text-4xl font-bold">OPPS!! APP NOT FOUND</h1>
               <p className="py-3 text-[#627382]">
-                The page you are looking for is not available.
+                The App you are requesting is not found on our system. please
+                try another apps
               </p>
               <button
                 onClick={() => nevigate(-1)}
@@ -31,4 +32,4 @@ const ErrorPage = () => {
   );
 };
 
-export default ErrorPage;
+export default AppNotFundPage;

@@ -1,0 +1,542 @@
+[
+  {
+    "image": "https://store-images.s-microsoft.com/image/apps.62449.9007199266246247.d208f74f-88b2-4ca7-b524-48d06b9566b1.2f46dd6e-1c39-47e2-b771-5735ccfb3d28",
+    "title": "Evernote – Notes & Organization",
+    "companyName": "Evernote Corp",
+    "id": 1,
+    "description": "Evernote is a powerful and versatile note-taking and organization application that helps individuals and teams capture, organize, and prioritize their thoughts and tasks in one unified platform. Users can create rich-text notes, attach images, PDFs, and documents, clip content from the web, and organize everything using notebooks and tags. The app provides advanced search functionality, cross-device synchronization, reminders, and collaboration features, making it ideal for personal productivity, academic research, and professional project management. Evernote’s intuitive interface and powerful features allow users to stay organized, reduce clutter, and boost overall efficiency.",
+    "size": 95,
+    "reviews": 450000,
+    "ratingAvg": 4.4,
+    "downloads": 50000000,
+    "ratings": [
+      { "name": "1 star", "count": 30000 },
+      { "name": "2 star", "count": 20000 },
+      { "name": "3 star", "count": 50000 },
+      { "name": "4 star", "count": 150000 },
+      { "name": "5 star", "count": 200000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/DsyWoouXk7psjF7DCG6MJj_rX9RR9-liQskZXoKvcqQIu_ybUm4F5RntxWh1IZAVSLI",
+    "title": "Duolingo – Language Learning Fun",
+    "companyName": "Duolingo Inc",
+    "id": 2,
+    "description": "Duolingo is an interactive language learning platform that allows users of all ages to learn new languages through engaging lessons, exercises, and gamified challenges. The app supports dozens of languages and offers features such as bite-sized lessons, speech recognition for pronunciation practice, quizzes, and progress tracking. Duolingo adapts to the user’s learning pace and provides personalized recommendations and reminders to encourage consistent practice. Whether learning for travel, work, or personal enrichment, Duolingo combines fun, engagement, and scientifically-proven techniques to make language learning accessible and effective for everyone.",
+    "size": 80,
+    "reviews": 1100000,
+    "ratingAvg": 4.7,
+    "downloads": 200000000,
+    "ratings": [
+      { "name": "1 star", "count": 40000 },
+      { "name": "2 star", "count": 30000 },
+      { "name": "3 star", "count": 90000 },
+      { "name": "4 star", "count": 300000 },
+      { "name": "5 star", "count": 820000 }
+    ]
+  },
+  {
+    "image": "https://ikigaipost.com/wp-content/uploads/2023/08/Copy-of-Brown-and-White-Modern-Facebook-Cover-930x620.png",
+    "title": "Notion – All-in-One Workspace",
+    "companyName": "Notion Labs",
+    "id": 3,
+    "description": "Notion is an all-in-one workspace that combines note-taking, task management, database creation, and team collaboration in a single, highly customizable platform. Users can build personal dashboards, manage projects using kanban boards, tables, calendars, and galleries, and integrate media, documents, and web links. Notion’s flexibility allows individuals and teams to design workflows that suit their unique needs, making it ideal for remote teams, students, and creative professionals. With powerful templates, real-time collaboration, and cross-device synchronization, Notion streamlines productivity, enhances organization, and helps users focus on what matters most.",
+    "size": 110,
+    "reviews": 900000,
+    "ratingAvg": 4.6,
+    "downloads": 80000000,
+    "ratings": [
+      { "name": "1 star", "count": 50000 },
+      { "name": "2 star", "count": 40000 },
+      { "name": "3 star", "count": 90000 },
+      { "name": "4 star", "count": 250000 },
+      { "name": "5 star", "count": 470000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/6yT8JfjY4ESEu69QpxHxjhyVhIoPgpbol1t4hEgfiBcGP0gy35ez0NvxyARrq5VPcGU",
+    "title": "SmPlan – ToDo List with Reminder",
+    "companyName": "Doist",
+    "id": 4,
+    "description": "Todoist is a sophisticated task management and productivity app designed to help users organize their personal and professional life efficiently. It allows creation of tasks, projects, and sub-tasks with deadlines, priorities, labels, and filters. Users can set recurring tasks, collaborate with team members, attach files, and receive intelligent reminders to ensure important work is completed on time. Todoist provides detailed productivity reports and visual insights to help users track progress, identify patterns, and improve time management. Its intuitive interface, cross-platform availability, and seamless synchronization make it one of the most reliable productivity tools for individuals and teams.",
+    "size": 60,
+    "reviews": 650000,
+    "ratingAvg": 4.5,
+    "downloads": 60000000,
+    "ratings": [
+      { "name": "1 star", "count": 35000 },
+      { "name": "2 star", "count": 25000 },
+      { "name": "3 star", "count": 80000 },
+      { "name": "4 star", "count": 200000 },
+      { "name": "5 star", "count": 310000 }
+    ]
+  },
+  {
+    "image": "https://assets.mofoprod.net/network/images/slack.original_SS2PtGA.jpg",
+    "title": "Slack – Team Communication",
+    "companyName": "Slack Technologies",
+    "id": 5,
+    "description": "Slack is a comprehensive team communication and collaboration platform that centralizes messaging, file sharing, and app integrations into channels for more efficient communication. Users can create public or private channels, direct message colleagues, share files, and integrate with hundreds of external services like Google Drive, Trello, and Zoom. Slack also offers search capabilities, notifications, workflow automation, and collaboration analytics to improve team productivity and reduce email overload. Its flexible structure allows teams of any size to coordinate work effectively, keep conversations organized, and focus on priorities without losing context.",
+    "size": 130,
+    "reviews": 1200000,
+    "ratingAvg": 4.3,
+    "downloads": 150000000,
+    "ratings": [
+      { "name": "1 star", "count": 60000 },
+      { "name": "2 star", "count": 40000 },
+      { "name": "3 star", "count": 120000 },
+      { "name": "4 star", "count": 360000 },
+      { "name": "5 star", "count": 620000 }
+    ]
+  },
+  {
+    "image": "https://img.freepik.com/premium-vector/square-zoom-logo-isolated-white-background_469489-910.jpg?semt=ais_hybrid&w=740&q=80",
+    "title": "Zoom – Video Conferencing",
+    "companyName": "Zoom Video Communications",
+    "id": 6,
+    "description": "Zoom is a leading video conferencing and online meeting application that enables users to conduct high-quality virtual meetings, webinars, and group collaboration. It offers features like HD video and audio, screen sharing, breakout rooms, chat, virtual backgrounds, and meeting recording. Zoom supports multi-device connectivity and integrates with calendars and productivity tools, making it ideal for remote work, online education, and virtual events. Its simple interface, reliability, and scalability make it suitable for individuals, small teams, and large enterprises seeking effective online communication solutions.",
+    "size": 140,
+    "reviews": 2000000,
+    "ratingAvg": 4.4,
+    "downloads": 300000000,
+    "ratings": [
+      { "name": "1 star", "count": 80000 },
+      { "name": "2 star", "count": 50000 },
+      { "name": "3 star", "count": 150000 },
+      { "name": "4 star", "count": 600000 },
+      { "name": "5 star", "count": 1570000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/JC3HW-ps59VAEU3vuJoi3I5XB_IQ9ISuILLudUY9uLSW7eKfqtXitrB-fF865rV4TQ",
+    "title": "Canva – Graphic Design & Creativity",
+    "companyName": "Canva Pty Ltd",
+    "id": 7,
+    "description": "Canva is a graphic design and creative content application that empowers users to design professional-quality visuals with ease. It provides templates, drag-and-drop editing tools, stock photos, fonts, icons, and collaborative features. Canva enables individuals, marketers, educators, and businesses to create social media posts, presentations, flyers, posters, and marketing materials quickly. With real-time collaboration, export options, and integration with other platforms, Canva democratizes design, allowing anyone to produce visually appealing content without advanced design skills.",
+    "size": 90,
+    "reviews": 1500000,
+    "ratingAvg": 4.7,
+    "downloads": 180000000,
+    "ratings": [
+      { "name": "1 star", "count": 40000 },
+      { "name": "2 star", "count": 30000 },
+      { "name": "3 star", "count": 100000 },
+      { "name": "4 star", "count": 400000 },
+      { "name": "5 star", "count": 1020000 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVo1t-J-uTBYzvAmx8nXV-Beko-bxaYy_oBA&s",
+    "title": "Medium – Publish & Read Articles",
+    "companyName": "A Medium Corp",
+    "id": 8,
+    "description": "Medium is a content publishing and reading platform that connects writers and readers worldwide. It allows users to publish articles, follow topics, curate reading lists, and engage with a global audience. Medium provides personalized recommendations based on reading preferences and behavior, promoting thought-provoking content across technology, culture, politics, health, and lifestyle. Users can interact through comments, highlights, and claps, creating a rich, community-driven reading experience.",
+    "size": 85,
+    "reviews": 500000,
+    "ratingAvg": 4.6,
+    "downloads": 70000000,
+    "ratings": [
+      { "name": "1 star", "count": 25000 },
+      { "name": "2 star", "count": 20000 },
+      { "name": "3 star", "count": 60000 },
+      { "name": "4 star", "count": 180000 },
+      { "name": "5 star", "count": 310000 }
+    ]
+  },
+  {
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/dd/46/e5/dd46e58f-7b2a-05b3-eaca-be670a5713f8/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/1200x630wa.png",
+    "title": "Trello – Project Management Boards",
+    "companyName": "Atlassian",
+    "id": 9,
+    "description": "Trello is a visual project management and collaboration tool that organizes tasks and workflows through boards, lists, and cards. It supports due dates, labels, attachments, checklists, comments, and team collaboration, making it ideal for personal projects, small teams, and enterprise workflows. Trello integrates with productivity apps, enabling users to streamline processes, track progress, and maintain team transparency efficiently. Its drag-and-drop interface and flexibility allow adaptation for various use cases, from software development to event planning.",
+    "size": 80,
+    "reviews": 800000,
+    "ratingAvg": 4.5,
+    "downloads": 90000000,
+    "ratings": [
+      { "name": "1 star", "count": 35000 },
+      { "name": "2 star", "count": 30000 },
+      { "name": "3 star", "count": 80000 },
+      { "name": "4 star", "count": 240000 },
+      { "name": "5 star", "count": 625000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/uAZcbs5DzG8xKGHt6bTPXtnvtc9zlwr-JbB53Um7cD8LKRTA8Ek1sO6EiUoHLpWNWw",
+    "title": "Headspace – Meditation & Mindfulness",
+    "companyName": "Headspace Inc",
+    "id": 10,
+    "description": "Headspace is a meditation, mindfulness, and mental wellness app designed to help users reduce stress, improve focus, and enhance sleep quality. It offers guided meditation sessions, sleep aids, breathing exercises, and mindfulness tips for individuals of all experience levels. Headspace provides personalized recommendations, daily reminders, and progress tracking to encourage consistent practice. It is widely used by students, professionals, and organizations to foster mental well-being, resilience, and emotional health, making mindfulness accessible to everyone.",
+    "size": 95,
+    "reviews": 600000,
+    "ratingAvg": 4.6,
+    "downloads": 80000000,
+    "ratings": [
+      { "name": "1 star", "count": 30000 },
+      { "name": "2 star", "count": 20000 },
+      { "name": "3 star", "count": 50000 },
+      { "name": "4 star", "count": 150000 },
+      { "name": "5 star", "count": 350000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/j-ZV144PlVuTVsLuBzIKyEw9CbFnmWw9ku2NJ1ef0gZJh-iiIN1nrNPmAtvgAteyDqU",
+    "title": "Strava – Fitness Tracking & Community",
+    "companyName": "Strava Inc",
+    "id": 11,
+    "description": "Strava is a social fitness network designed for athletes to track running, cycling, and swimming activities. It uses GPS to provide detailed performance metrics, including distance, pace, speed, elevation, and heart rate analysis. Users can join challenges, follow friends, share achievements, and analyze training data over time. Strava encourages community engagement, motivation, and healthy competition by connecting athletes worldwide and providing insights to improve performance.",
+    "size": 85,
+    "reviews": 400000,
+    "ratingAvg": 4.5,
+    "downloads": 60000000,
+    "ratings": [
+      { "name": "1 star", "count": 20000 },
+      { "name": "2 star", "count": 15000 },
+      { "name": "3 star", "count": 50000 },
+      { "name": "4 star", "count": 120000 },
+      { "name": "5 star", "count": 195000 }
+    ]
+  },
+  {
+    "image": "https://cdn.jim-nielsen.com/watchos/512/shazam-2015-07-22.png?rf=1024",
+    "title": "Shazam – Music Discovery",
+    "companyName": "Apple Inc",
+    "id": 12,
+    "description": "Shazam is a music discovery app that identifies songs playing around the user within seconds. Users can discover lyrics, music videos, artist information, and streaming links. Shazam integrates with Apple Music and Spotify for instant playback, playlist creation, and sharing. It also offers charts of trending tracks, curated recommendations, and offline recognition, making music exploration effortless and fun.",
+    "size": 75,
+    "reviews": 500000,
+    "ratingAvg": 4.7,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 10000 },
+      { "name": "2 star", "count": 8000 },
+      { "name": "3 star", "count": 30000 },
+      { "name": "4 star", "count": 120000 },
+      { "name": "5 star", "count": 335000 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5YJ6m8Z8x8FcuzvqTNqI0GT3UupyAaUtkRQ&s",
+    "title": "Waze – Community Navigation",
+    "companyName": "Google LLC",
+    "id": 13,
+    "description": "Waze is a community-driven navigation app that provides real-time traffic information, route planning, and alerts for accidents, police, hazards, and road closures. Users contribute live updates to help others avoid delays. Waze integrates with calendars, music apps, and voice guidance for a smooth driving experience, ensuring commuters find the fastest routes and stay informed about road conditions.",
+    "size": 90,
+    "reviews": 350000,
+    "ratingAvg": 4.6,
+    "downloads": 80000000,
+    "ratings": [
+      { "name": "1 star", "count": 15000 },
+      { "name": "2 star", "count": 12000 },
+      { "name": "3 star", "count": 35000 },
+      { "name": "4 star", "count": 100000 },
+      { "name": "5 star", "count": 198000 }
+    ]
+  },
+  {
+    "image": "https://cdn.dribbble.com/userupload/11323116/file/original-65861819edf4094cb65b167352f3fdb9.jpg?resize=1504x1072&vertical=center",
+    "title": "HammFit – Fitness & Workout",
+    "companyName": "HammFit Inc",
+    "id": 14,
+    "description": "HammFit is a minimalist fitness app that combines workout tracking, exercise guidance, and progress monitoring. Users can create custom workout plans, track sets and reps, monitor weight and performance, and stay motivated with progress insights. HammFit is designed for both beginners and experienced fitness enthusiasts seeking a clean and effective app experience.",
+    "size": 45,
+    "reviews": 15000,
+    "ratingAvg": 4.7,
+    "downloads": 500000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 500 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 11150 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKJf16jtHQOvrzaEdWtoP7d5qtGMyDxMoTGg&s",
+    "title": "Pocket – Save & Read Later",
+    "companyName": "Read It Later Inc",
+    "id": 15,
+    "description": "Pocket is a read-it-later app that allows users to save articles, videos, and web pages for offline reading. Users can organize content with tags, discover recommended stories, and sync across devices. Pocket ensures a distraction-free reading experience, enabling users to consume content at their convenience.",
+    "size": 50,
+    "reviews": 250000,
+    "ratingAvg": 4.5,
+    "downloads": 50000000,
+    "ratings": [
+      { "name": "1 star", "count": 10000 },
+      { "name": "2 star", "count": 8000 },
+      { "name": "3 star", "count": 30000 },
+      { "name": "4 star", "count": 80000 },
+      { "name": "5 star", "count": 122000 }
+    ]
+  },
+  {
+    "image": "https://img.freepik.com/premium-vector/spotify-logo-icon-flat-vector-illustration_1026019-17368.jpg?semt=ais_hybrid&w=740&q=80",
+    "title": "Spotify – Music Streaming",
+    "companyName": "Spotify Ltd",
+    "id": 16,
+    "description": "Spotify is a digital music streaming service that gives users access to millions of songs, podcasts, and playlists. It provides personalized recommendations, curated playlists, offline playback, and cross-device synchronization, making it a leading platform for music discovery and listening.",
+    "size": 100,
+    "reviews": 3000000,
+    "ratingAvg": 4.7,
+    "downloads": 350000000,
+    "ratings": [
+      { "name": "1 star", "count": 100000 },
+      { "name": "2 star", "count": 70000 },
+      { "name": "3 star", "count": 250000 },
+      { "name": "4 star", "count": 900000 },
+      { "name": "5 star", "count": 1950000 }
+    ]
+  },
+  {
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/15844974/netflixlogo.0.0.1466448626.png?quality=90&strip=all&crop=1.2535702951444%2C0%2C97.492859409711%2C100&w=2400",
+    "title": "Netflix – Movies & TV Shows",
+    "companyName": "Netflix Inc",
+    "id": 17,
+    "description": "Netflix is a subscription-based streaming service offering a wide variety of TV shows, movies, documentaries, and original content. It provides personalized recommendations, offline downloads, multiple profiles, and multi-device streaming. Netflix is known for high-quality original programming and global accessibility, making it a premier entertainment platform.",
+    "size": 150,
+    "reviews": 5000000,
+    "ratingAvg": 4.6,
+    "downloads": 400000000,
+    "ratings": [
+      { "name": "1 star", "count": 150000 },
+      { "name": "2 star", "count": 100000 },
+      { "name": "3 star", "count": 500000 },
+      { "name": "4 star", "count": 1800000 },
+      { "name": "5 star", "count": 2500000 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8WU0Emt19dyXiCPIuhVtxIFbqx13mkj54hA&s",
+    "title": "Amazon – Online Shopping",
+    "companyName": "Amazon Inc",
+    "id": 18,
+    "description": "Amazon is a global e-commerce platform that allows users to browse, purchase, and review millions of products. It provides fast delivery, product recommendations, order tracking, and customer service. Amazon’s mobile app enhances shopping convenience and accessibility for users worldwide.",
+    "size": 120,
+    "reviews": 2500000,
+    "ratingAvg": 4.5,
+    "downloads": 300000000,
+    "ratings": [
+      { "name": "1 star", "count": 100000 },
+      { "name": "2 star", "count": 80000 },
+      { "name": "3 star", "count": 400000 },
+      { "name": "4 star", "count": 800000 },
+      { "name": "5 star", "count": 1220000 }
+    ]
+  },
+  {
+    "image": "https://penji.co/wp-content/uploads/2023/07/X-logo-twitter-1-e1690571698797-673x673.jpg",
+    "title": "Twitter – Social Networking",
+    "companyName": "Twitter Inc",
+    "id": 19,
+    "description": "Twitter is a social media platform that enables users to post short messages, called tweets, follow topics and people, and engage in discussions. It provides trending topics, direct messaging, media sharing, and real-time updates, making it a hub for news, social interaction, and online communities.",
+    "size": 95,
+    "reviews": 2000000,
+    "ratingAvg": 4.4,
+    "downloads": 250000000,
+    "ratings": [
+      { "name": "1 star", "count": 80000 },
+      { "name": "2 star", "count": 50000 },
+      { "name": "3 star", "count": 200000 },
+      { "name": "4 star", "count": 700000 },
+      { "name": "5 star", "count": 1000000 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-LEWI88wVZBQZ4YmnUfwXBQb02j8DbJL--g&s",
+    "title": "Instagram – Photo & Video Sharing",
+    "companyName": "Meta Platforms Inc",
+    "id": 20,
+    "description": "Instagram is a visual social networking platform where users can share photos, videos, reels, and stories. It offers filters, editing tools, shopping features, direct messaging, and discovery through Explore. Instagram fosters creativity, social engagement, and content discovery for individuals and brands.",
+    "size": 110,
+    "reviews": 3000000,
+    "ratingAvg": 4.6,
+    "downloads": 350000000,
+    "ratings": [
+      { "name": "1 star", "count": 100000 },
+      { "name": "2 star", "count": 80000 },
+      { "name": "3 star", "count": 250000 },
+      { "name": "4 star", "count": 900000 },
+      { "name": "5 star", "count": 1450000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/250px-Facebook_icon_2013.svg.png",
+    "title": "Facebook – Connect & Share",
+    "companyName": "Meta Platforms Inc",
+    "id": 21,
+    "description": "Facebook is a social networking platform that allows users to connect with friends and family, share updates, photos, videos, and events. It offers groups, pages, messaging, marketplace, and live streaming features. Facebook helps users stay informed, communicate, and engage with communities globally.",
+    "size": 130,
+    "reviews": 4000000,
+    "ratingAvg": 4.3,
+    "downloads": 400000000,
+    "ratings": [
+      { "name": "1 star", "count": 120000 },
+      { "name": "2 star", "count": 90000 },
+      { "name": "3 star", "count": 400000 },
+      { "name": "4 star", "count": 1100000 },
+      { "name": "5 star", "count": 2300000 }
+    ]
+  },
+  {
+    "image": "https://img.freepik.com/premium-vector/linkedin-logo-icon_1273375-1174.jpg?semt=ais_hybrid&w=740&q=80",
+    "title": "LinkedIn – Professional Networking",
+    "companyName": "LinkedIn Corp",
+    "id": 22,
+    "description": "LinkedIn is a professional networking platform that connects professionals, recruiters, and businesses. Users can create profiles, share work updates, publish articles, follow companies, and apply for jobs. LinkedIn provides networking, learning, and career development opportunities in a professional ecosystem.",
+    "size": 105,
+    "reviews": 1800000,
+    "ratingAvg": 4.5,
+    "downloads": 200000000,
+    "ratings": [
+      { "name": "1 star", "count": 50000 },
+      { "name": "2 star", "count": 40000 },
+      { "name": "3 star", "count": 150000 },
+      { "name": "4 star", "count": 500000 },
+      { "name": "5 star", "count": 1100000 }
+    ]
+  },
+  {
+    "image": "https://img.freepik.com/premium-photo/3d-render-uber-logo-glossy-translucent-black-floating-sleek-45-degree-angle-neon-white-out_1020495-781520.jpg?semt=ais_hybrid&w=740&q=80",
+    "title": "Uber – Ride Hailing & Delivery",
+    "companyName": "Uber Technologies Inc",
+    "id": 23,
+    "description": "Uber is a ride-hailing and delivery platform that connects passengers with drivers and enables on-demand food and goods delivery. Users can request rides, track drivers, estimate fares, and pay digitally. Uber provides reliable transportation and delivery services globally.",
+    "size": 100,
+    "reviews": 2200000,
+    "ratingAvg": 4.4,
+    "downloads": 250000000,
+    "ratings": [
+      { "name": "1 star", "count": 80000 },
+      { "name": "2 star", "count": 60000 },
+      { "name": "3 star", "count": 250000 },
+      { "name": "4 star", "count": 700000 },
+      { "name": "5 star", "count": 1100000 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU-0sgMITwNqzwWbNZfDxjhGmmje755YgLHQ&s",
+    "title": "Airbnb – Travel & Stay",
+    "companyName": "Airbnb Inc",
+    "id": 24,
+    "description": "Airbnb is a travel and accommodation platform that allows users to book unique stays, experiences, and vacation rentals worldwide. Users can list properties, search by location, price, and amenities, and connect with hosts for a personalized travel experience. Airbnb provides reviews, secure payments, and local recommendations.",
+    "size": 95,
+    "reviews": 1200000,
+    "ratingAvg": 4.6,
+    "downloads": 150000000,
+    "ratings": [
+      { "name": "1 star", "count": 40000 },
+      { "name": "2 star", "count": 30000 },
+      { "name": "3 star", "count": 100000 },
+      { "name": "4 star", "count": 400000 },
+      { "name": "5 star", "count": 630000 }
+    ]
+  },
+  {
+    "image": "https://static.vecteezy.com/system/resources/previews/013/948/543/non_2x/google-maps-logo-on-transparent-white-background-free-vector.jpg",
+    "title": "Google Maps – Navigation & Local",
+    "companyName": "Google LLC",
+    "id": 25,
+    "description": "Google Maps is a navigation and mapping application that provides real-time GPS navigation, traffic conditions, route planning, and local business information. Users can explore destinations, get directions, view street-level imagery, and access transit options. Google Maps helps users navigate efficiently and discover places of interest.",
+    "size": 110,
+    "reviews": 3500000,
+    "ratingAvg": 4.7,
+    "downloads": 400000000,
+    "ratings": [
+      { "name": "1 star", "count": 90000 },
+      { "name": "2 star", "count": 60000 },
+      { "name": "3 star", "count": 250000 },
+      { "name": "4 star", "count": 950000 },
+      { "name": "5 star", "count": 2100000 }
+    ]
+  },
+  {
+    "image": "https://img.freepik.com/premium-vector/google-drive-logo-icon_1273375-832.jpg?semt=ais_hybrid&w=740&q=80",
+    "title": "Google Drive – Cloud Storage",
+    "companyName": "Google LLC",
+    "id": 26,
+    "description": "Google Drive is a cloud storage and file management service that allows users to store, access, and share files securely from any device. It offers collaborative editing, real-time synchronization, version history, and integration with Google Workspace apps, providing seamless productivity solutions.",
+    "size": 120,
+    "reviews": 3000000,
+    "ratingAvg": 4.6,
+    "downloads": 350000000,
+    "ratings": [
+      { "name": "1 star", "count": 70000 },
+      { "name": "2 star", "count": 50000 },
+      { "name": "3 star", "count": 200000 },
+      { "name": "4 star", "count": 900000 },
+      { "name": "5 star", "count": 1750000 }
+    ]
+  },
+  {
+    "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/2020/06/new-google-photos-logo.jpg",
+    "title": "Google Photos – Photo Backup",
+    "companyName": "Google LLC",
+    "id": 27,
+    "description": "Google Photos is a cloud-based photo and video storage service that allows users to back up, organize, and share media. It provides automatic backup, smart search, editing tools, albums, and shared libraries, helping users preserve memories and access them across devices.",
+    "size": 100,
+    "reviews": 2500000,
+    "ratingAvg": 4.6,
+    "downloads": 300000000,
+    "ratings": [
+      { "name": "1 star", "count": 60000 },
+      { "name": "2 star", "count": 40000 },
+      { "name": "3 star", "count": 180000 },
+      { "name": "4 star", "count": 700000 },
+      { "name": "5 star", "count": 1550000 }
+    ]
+  },
+  {
+    "image": "https://res.cdn.office.net/apphome/wordogimage.png",
+    "title": "Microsoft Word – Document Editor",
+    "companyName": "Microsoft Corp",
+    "id": 28,
+    "description": "Microsoft Word is a word processing application that allows users to create, edit, format, and share documents. It provides templates, collaboration tools, advanced formatting, and cloud integration, making it essential for students, professionals, and organizations worldwide.",
+    "size": 110,
+    "reviews": 2000000,
+    "ratingAvg": 4.5,
+    "downloads": 250000000,
+    "ratings": [
+      { "name": "1 star", "count": 50000 },
+      { "name": "2 star", "count": 40000 },
+      { "name": "3 star", "count": 200000 },
+      { "name": "4 star", "count": 700000 },
+      { "name": "5 star", "count": 1150000 }
+    ]
+  },
+  {
+    "image": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/B00-M365-Excel-App-Icon?qlt=90&hei=270&wid=270&bgc=FFFFFFFF&fmt=jpg",
+    "title": "Microsoft Excel – Spreadsheet Tool",
+    "companyName": "Microsoft Corp",
+    "id": 29,
+    "description": "Microsoft Excel is a spreadsheet application that enables users to analyze data, create charts, build models, and automate calculations. It offers functions, pivot tables, macros, and collaborative editing for personal and professional productivity.",
+    "size": 120,
+    "reviews": 1800000,
+    "ratingAvg": 4.5,
+    "downloads": 200000000,
+    "ratings": [
+      { "name": "1 star", "count": 40000 },
+      { "name": "2 star", "count": 30000 },
+      { "name": "3 star", "count": 150000 },
+      { "name": "4 star", "count": 600000 },
+      { "name": "5 star", "count": 950000 }
+    ]
+  },
+  {
+    "image": "https://sm.pcmag.com/pcmag_uk/review/m/microsoft-/microsoft-powerpoint_vcff.jpg",
+    "title": "Microsoft PowerPoint – Presentations",
+    "companyName": "Microsoft Corp",
+    "id": 30,
+    "description": "Microsoft PowerPoint is a presentation software that allows users to create slideshows, multimedia presentations, and visual content. It provides templates, animations, transitions, collaboration tools, and integration with other Microsoft Office apps.",
+    "size": 110,
+    "reviews": 1500000,
+    "ratingAvg": 4.5,
+    "downloads": 180000000,
+    "ratings": [
+      { "name": "1 star", "count": 35000 },
+      { "name": "2 star", "count": 25000 },
+      { "name": "3 star", "count": 120000 },
+      { "name": "4 star", "count": 500000 },
+      { "name": "5 star", "count": 850000 }
+    ]
+  }
+]

@@ -11,6 +11,10 @@
     color: transparent;
   }
   .bg-gradient {
-    background: linear-gradient(to right, #632ee3, #9f62f2);
+    background-image: linear-gradient(to right, #632ee3, #9f62f2);
+    transition: all 0.3s ease-in-out;
+  }
+  .bg-gradient:hover {
+    opacity: 0.9;
   }
 }
