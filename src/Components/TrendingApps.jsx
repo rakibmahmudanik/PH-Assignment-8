@@ -4,7 +4,7 @@ import { Link } from "react-router";
 import useAppData from "../Hooks/useAppData";
 
 const TrendingApps = () => {
-  const { appData } = useAppData();
+  const { appData, loading, error } = useAppData();
 
   const SlicedData = appData.slice(0, 8);
   return (
