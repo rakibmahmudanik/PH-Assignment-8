@@ -3,7 +3,7 @@ import "../index.css";
 
 const TrustedInfo = () => {
   return (
-    <div class="w-full bg-gradient-to-br bg-gradient py-16 px-10 text-center font-sans">
+    <div class="w-full bg-gradient-to-br bg-gradient py-16 px-10 text-center font-sans pointer-events-none">
       <h2 class="text-white text-3xl md:text-4xl font-extrabold mb-12 tracking-tight">
         Trusted By Millions, Built For You
       </h2>

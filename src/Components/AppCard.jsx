@@ -1,10 +1,20 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDownload, faStar } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router";
+
+const handleFormatDownload = (num) => {
+  if (num >= 1000000000)
+    return (num / 1000000000).toFixed(1).replace(/\.0$/, "") + "B";
+  if (num >= 1000000)
+    return (num / 1000000).toFixed(1).replace(/\.0$/, "") + "M";
+  if (num >= 1000) return (num / 1000).toFixed(1).replace(/\.0$/, "") + "K";
+  return num.toString();
+};
 
 const AppCard = ({ app }) => {
   return (
-    <div className="hover-3d cursor-pointer">
+    <Link to={`/details/${app.id}`} className="hover-3d cursor-pointer">
       <div class="max-w-full bg-white rounded-[10px] border border-gray-200 overflow-hidden">
         <div class="p-3 pb-0">
           <div class="w-full aspect-square bg-gray-300 rounded-[14px] overflow-hidden">
@@ -19,11 +29,11 @@ const AppCard = ({ app }) => {
           <div class="flex items-center justify-between">
             <span class="inline-flex items-center gap-1 bg-green-50 text-green-600 text-xs font-medium px-2.5 py-1 rounded-md">
               <FontAwesomeIcon icon={faDownload} />
-              9M
+              {handleFormatDownload(app.downloads)}
             </span>
 
             <span class="inline-flex items-center gap-1 bg-amber-50 text-amber-500 text-xs font-medium px-2.5 py-1 rounded-md">
-              <FontAwesomeIcon icon={faStar} /> 5
+              <FontAwesomeIcon icon={faStar} /> {app.ratingAvg}
             </span>
           </div>
         </div>
@@ -36,7 +46,7 @@ const AppCard = ({ app }) => {
       <div></div>
       <div></div>
       <div></div>
-    </div>
+    </Link>
   );
 };
 

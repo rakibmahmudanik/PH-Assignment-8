@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useMemo, useState } from "react";
 import useAppData from "../Hooks/useAppData";
 import AppCard from "../Components/AppCard";
 
@@ -6,11 +6,16 @@ const AppsPage = () => {
   const { appData } = useAppData();
   const [search, setSearch] = useState("");
   const trimedData = search.trim().toLowerCase();
-  const searchedData = trimedData
-    ? appData.filter((app) =>
-        app.title.trim().toLowerCase().includes(trimedData),
-      )
-    : appData;
+  const searchedData = useMemo(
+    () =>
+      trimedData
+        ? appData.filter((app) =>
+            app.title.trim().toLowerCase().includes(trimedData),
+          )
+        : appData,
+    [appData, trimedData],
+  );
+  console.log(searchedData);
 
   return (
     <div className="max-w-full px-10 md:px-14">
