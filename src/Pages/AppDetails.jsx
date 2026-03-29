@@ -6,12 +6,35 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDownload, faStar } from "@fortawesome/free-solid-svg-icons";
 
 import "../index.css";
+import { useState } from "react";
+import { useEffect } from "react";
 
 const AppDetails = () => {
   const { id } = useParams();
+
   const { appData, loading, error } = useAppData();
+  const [isInstalled, setIsInstalled] = useState(false);
+
+  const thisApp = appData.find((d) => d.id == id);
+
+  const handleFormat = (num) => {
+    if (num >= 1000000000)
+      return (num / 1000000000).toFixed(1).replace(/\.0$/, "") + "B";
+    if (num >= 1000000)
+      return (num / 1000000).toFixed(1).replace(/\.0$/, "") + "M";
+    if (num >= 1000) return (num / 1000).toFixed(1).replace(/\.0$/, "") + "K";
+    return num.toString();
+  };
+
+  useEffect(() => {
+    if (!thisApp) return;
+    const existingApp = JSON.parse(localStorage.getItem("Installed")) || [];
+    const found = existingApp.some((item) => item.id === thisApp.id);
+    setIsInstalled(found);
+  }, [thisApp]);
 
   if (loading) return <p>Loading.....</p>;
+  if (error) return <p>{error}</p>;
 
   const {
     title,
@@ -21,17 +44,26 @@ const AppDetails = () => {
     downloads,
     reviews,
     ratingAvg,
-  } = appData.find((d) => d.id == id);
+    size,
+  } = thisApp || {};
 
-  if (error) return <p>{error}</p>;
+  const handleInstalled = () => {
+    const existingApp = JSON.parse(localStorage.getItem("Installed")) || [];
+    const alreadyInstalled = existingApp.some((item) => item.id === thisApp.id);
+    console.log(existingApp);
 
-  const handleFormat = (num) => {
-    if (num >= 1000000000)
-      return (num / 1000000000).toFixed(1).replace(/\.0$/, "") + "B";
-    if (num >= 1000000)
-      return (num / 1000000).toFixed(1).replace(/\.0$/, "") + "M";
-    if (num >= 1000) return (num / 1000).toFixed(1).replace(/\.0$/, "") + "K";
-    return num.toString();
+    if (alreadyInstalled) {
+      return;
+    }
+
+    let updatedItem = [];
+    if (existingApp) {
+      updatedItem = [...existingApp, thisApp];
+    } else {
+      updatedItem.push(thisApp);
+    }
+    localStorage.setItem("Installed", JSON.stringify(updatedItem));
+    setIsInstalled(true);
   };
 
   return (
@@ -90,8 +122,12 @@ const AppDetails = () => {
               </div>
             </div>
 
-            <button class=" bg-[#00D390] text-white text-sm font-semibold px-7 py-2.5 rounded-md">
-              Install Now (291 MB)
+            <button
+              onClick={handleInstalled}
+              disabled={isInstalled}
+              class={`bg-[#00D390] text-white text-sm font-semibold px-7 py-2.5 rounded-md cursor-pointer ${isInstalled ? "bg-gray-400 text-black " : ""}`}
+            >
+              {isInstalled ? "Installed" : `Install Now (${size} MB)`}
             </button>
           </div>
         </div>
