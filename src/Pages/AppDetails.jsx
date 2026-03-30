@@ -3,7 +3,12 @@ import { useParams } from "react-router";
 import useAppData from "../Hooks/useAppData";
 import ReviewsIcon from "../assets/Vector.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faDownload, faStar } from "@fortawesome/free-solid-svg-icons";
+import {
+  faDownload,
+  faStar,
+  faCircleCheck,
+} from "@fortawesome/free-solid-svg-icons";
+import { toast } from "react-toastify";
 
 import "../index.css";
 import { useState } from "react";
@@ -14,6 +19,9 @@ const AppDetails = () => {
 
   const { appData, loading, error } = useAppData();
   const [isInstalled, setIsInstalled] = useState(false);
+  const [inprogress, setInprogress] = useState(0);
+  const [isInstalling, setIsInstalling] = useState(false);
+  const [isdone, setIsDone] = useState(false);
 
   const thisApp = appData.find((d) => d.id == id);
 
@@ -48,22 +56,31 @@ const AppDetails = () => {
   } = thisApp || {};
 
   const handleInstalled = () => {
-    const existingApp = JSON.parse(localStorage.getItem("Installed")) || [];
-    const alreadyInstalled = existingApp.some((item) => item.id === thisApp.id);
-    console.log(existingApp);
+    // const alreadyInstalled = existingApp.some((item) => item.id === thisApp.id);
 
-    if (alreadyInstalled) {
-      return;
-    }
+    if (isInstalling || isInstalled) return;
+    setIsInstalling(true);
 
-    let updatedItem = [];
-    if (existingApp) {
-      updatedItem = [...existingApp, thisApp];
-    } else {
-      updatedItem.push(thisApp);
-    }
-    localStorage.setItem("Installed", JSON.stringify(updatedItem));
-    setIsInstalled(true);
+    let progressCount = 1;
+    const interval = setInterval(() => {
+      setInprogress(progressCount++);
+
+      if (progressCount >= 102) {
+        clearInterval(interval);
+        setIsInstalling(false);
+        setIsDone(true);
+
+        setTimeout(() => {
+          setIsDone(false);
+          setIsInstalled(true);
+          const existingApp =
+            JSON.parse(localStorage.getItem("Installed")) || [];
+          const updatedItem = [...existingApp, thisApp];
+          localStorage.setItem("Installed", JSON.stringify(updatedItem));
+          toast.success("App Installed Succesfully!");
+        }, 1000);
+      }
+    }, 30);
   };
 
   return (
@@ -125,9 +142,29 @@ const AppDetails = () => {
             <button
               onClick={handleInstalled}
               disabled={isInstalled}
-              class={`bg-[#00D390] text-white text-sm font-semibold px-7 py-2.5 rounded-md cursor-pointer ${isInstalled ? "bg-gray-400 text-black " : ""}`}
+              class={`relative bg-[#00D390] text-white text-sm font-semibold px-5 py-2.5 rounded-md cursor-pointer overflow-hidden ${isInstalled ? "bg-gray-400" : ""}${isInstalling ? "bg-[#026546]" : ""}`}
             >
-              {isInstalled ? "Installed" : `Install Now (${size} MB)`}
+              {isInstalling && (
+                <div
+                  className="absolute top-0 left-0 h-full  bg-[#00D390] transition-all"
+                  style={{ width: `${inprogress + 10}%` }}
+                />
+              )}
+
+              <span className="relative z-10">
+                {isInstalled ? (
+                  "Installed"
+                ) : isdone ? (
+                  <span className="px-20">
+                    <FontAwesomeIcon icon={faCircleCheck} /> Done
+                  </span>
+                ) : isInstalling ? (
+                  `Downloading... ${Math.round((inprogress / 100) * size)} MB / ${size} MB`
+                ) : (
+                  `Install Now (${size} MB)`
+                )}
+              </span>
+              {/* {isInstalled ? "Installed" : `Install Now (${size} MB)`} */}
             </button>
           </div>
         </div>
@@ -135,11 +172,8 @@ const AppDetails = () => {
 
         <div>
           <h1 className="font-bold text-xl mb-3">Description</h1>
-          {description.split("\n\n").map((para, index) => (
-            <p key={index} className="text-gray-600 text-sm mb-3">
-              {para}
-            </p>
-          ))}
+
+          <p className="text-gray-600 text-sm mb-3">{description}</p>
         </div>
       </div>
     </div>

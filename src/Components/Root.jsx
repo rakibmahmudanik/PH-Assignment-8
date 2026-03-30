@@ -3,6 +3,7 @@ import Navbar from "./Navbar";
 import { Outlet } from "react-router";
 import Hero from "./Hero";
 import Footer from "./Footer";
+import { ToastContainer } from "react-toastify";
 
 const Root = () => {
   return (
@@ -12,6 +13,7 @@ const Root = () => {
         <Outlet></Outlet>
       </div>
       <Footer></Footer>
+      <ToastContainer autoClose={3000} />
     </div>
   );
 };
