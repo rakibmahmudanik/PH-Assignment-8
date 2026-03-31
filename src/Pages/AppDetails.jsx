@@ -80,7 +80,7 @@ const AppDetails = () => {
           toast.success("App Installed Succesfully!");
         }, 1000);
       }
-    }, 30);
+    }, 25);
   };
 
   return (
@@ -139,33 +139,37 @@ const AppDetails = () => {
               </div>
             </div>
 
-            <button
-              onClick={handleInstalled}
-              disabled={isInstalled}
-              class={`relative bg-[#00D390] text-white text-sm font-semibold px-5 py-2.5 rounded-md cursor-pointer overflow-hidden ${isInstalled ? "bg-gray-400" : ""}${isInstalling ? "bg-[#026546]" : ""}`}
+            <div
+              className={` ${isInstalled ? "w-30" : "w-70"} overflow-hidden`}
             >
-              {isInstalling && (
-                <div
-                  className="absolute top-0 left-0 h-full  bg-[#00D390] transition-all"
-                  style={{ width: `${inprogress + 10}%` }}
-                />
-              )}
-
-              <span className="relative z-10">
-                {isInstalled ? (
-                  "Installed"
-                ) : isdone ? (
-                  <span className="px-20">
-                    <FontAwesomeIcon icon={faCircleCheck} /> Done
-                  </span>
-                ) : isInstalling ? (
-                  `Downloading... ${Math.round((inprogress / 100) * size)} MB / ${size} MB`
-                ) : (
-                  `Install Now (${size} MB)`
+              <button
+                onClick={handleInstalled}
+                disabled={isInstalled}
+                class={`relative w-full bg-[#00D390] text-white text-sm font-semibold px-5 py-2.5 rounded-md cursor-pointer overflow-hidden ${isInstalled ? "bg-gray-400" : ""}${isInstalling ? "bg-[#026546]" : ""}`}
+              >
+                {isInstalling && (
+                  <div
+                    className="absolute top-0 left-0 h-full  bg-[#00D390] transition-all"
+                    style={{ width: `${inprogress + 10}%` }}
+                  />
                 )}
-              </span>
-              {/* {isInstalled ? "Installed" : `Install Now (${size} MB)`} */}
-            </button>
+
+                <span className="relative z-10">
+                  {isInstalled ? (
+                    "Installed"
+                  ) : isdone ? (
+                    <span className="px-20">
+                      <FontAwesomeIcon icon={faCircleCheck} /> Done
+                    </span>
+                  ) : isInstalling ? (
+                    `Downloading... ${Math.round((inprogress / 100) * size)} MB / ${size} MB`
+                  ) : (
+                    `Install Now (${size} MB)`
+                  )}
+                </span>
+                {/* {isInstalled ? "Installed" : `Install Now (${size} MB)`} */}
+              </button>
+            </div>
           </div>
         </div>
         <hr class="border-gray-300 my-20" />
