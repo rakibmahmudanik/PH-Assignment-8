@@ -13,6 +13,7 @@ import { toast } from "react-toastify";
 import "../index.css";
 import { useState } from "react";
 import { useEffect } from "react";
+import RevChart from "../Components/RevChart";
 
 const AppDetails = () => {
   const { id } = useParams();
@@ -172,7 +173,13 @@ const AppDetails = () => {
             </div>
           </div>
         </div>
-        <hr class="border-gray-300 my-20" />
+        <hr class="border-gray-300 mt-20 mb-10" />
+
+        <div className="mb-10">
+          <RevChart thisApp={thisApp}></RevChart>
+        </div>
+
+        <hr class="border-gray-300 mt-20 mb-10" />
 
         <div>
           <h1 className="font-bold text-xl mb-3">Description</h1>
