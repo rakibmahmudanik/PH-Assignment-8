@@ -1,16 +1,16 @@
-# React + Vite
+# 📱 HERO.IO
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern app discovery platform where users can explore, review, and install their favorite apps.
 
-Currently, two official plugins are available:
+## 📝 Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Hero.io is a React-based web application that allows users to browse apps, view detailed information including ratings, reviews, and download stats, and install apps directly from the platform. Installed apps are persisted using localStorage so they remain available across sessions.
 
-## React Compiler
+## 🛠 Technologies
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React** — UI library
+- **React Router** — client-side routing
+- **Tailwind CSS** — utility-first styling
+- **Recharts** — data visualization for ratings chart
+- **FontAwesome** — icons
+- **LocalStorage** — persisting installed apps
