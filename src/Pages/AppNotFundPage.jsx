@@ -7,7 +7,6 @@ const AppNotFundPage = () => {
 
   return (
     <div>
-      <Navbar></Navbar>
       <div className="hero bg-base-200 min-h-[90vh]">
         <div className="hero-content text-center">
           <div className="max-w-md">

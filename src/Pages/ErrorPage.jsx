@@ -1,13 +1,14 @@
 import React from "react";
 import Navbar from "../Components/Navbar";
 import errorImg from "../assets/error-404.png";
-import { Link, useNavigate } from "react-router";
+import { useNavigate } from "react-router";
 
 const ErrorPage = () => {
   const nevigate = useNavigate();
   return (
     <div>
       <Navbar></Navbar>
+
       <div className="hero bg-base-200 min-h-[90vh]">
         <div className="hero-content text-center">
           <div className="max-w-md">

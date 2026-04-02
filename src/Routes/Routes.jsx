@@ -22,6 +22,8 @@ const router = createBrowserRouter([
       { path: "install", Component: InstalledPage },
       {
         path: "/details/:id",
+        errorElement: <AppNotFundPage></AppNotFundPage>,
+
         Component: AppDetails,
       },
     ],

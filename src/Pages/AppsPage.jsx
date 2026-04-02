@@ -1,9 +1,10 @@
 import React, { useMemo, useState } from "react";
 import useAppData from "../Hooks/useAppData";
 import AppCard from "../Components/AppCard";
+import LoadingSpinner from "../Components/LoadingSpinner";
 
 const AppsPage = () => {
-  const { appData } = useAppData();
+  const { appData, loading } = useAppData();
   const [search, setSearch] = useState("");
   const trimedData = search.trim().toLowerCase();
   const searchedData = useMemo(
@@ -13,9 +14,9 @@ const AppsPage = () => {
             app.title.trim().toLowerCase().includes(trimedData),
           )
         : appData,
+
     [appData, trimedData],
   );
-  console.log(searchedData);
 
   return (
     <div className="max-w-full px-10 md:px-14">
@@ -57,15 +58,21 @@ const AppsPage = () => {
           />
         </label>
       </div>
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 pt-5 pb-20">
-        {searchedData.length == 0 ? (
-          <div>
-            <p className="pl-1">No Matches Found</p>
-          </div>
-        ) : (
-          searchedData.map((app) => <AppCard key={app.id} app={app}></AppCard>)
-        )}
-      </div>
+      {loading ? (
+        <LoadingSpinner />
+      ) : (
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 pt-5 pb-20">
+          {searchedData.length == 0 ? (
+            <div>
+              <p className="pl-1">No App Found</p>
+            </div>
+          ) : (
+            searchedData.map((app) => (
+              <AppCard key={app.id} app={app}></AppCard>
+            ))
+          )}
+        </div>
+      )}
     </div>
   );
 };

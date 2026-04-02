@@ -8,7 +8,7 @@ import {
   YAxis,
 } from "recharts";
 
-const RevChart = ({ thisApp }) => {
+const RatChart = ({ thisApp }) => {
   const revRatings = [...thisApp.ratings].reverse();
   return (
     <ResponsiveContainer width="100%" height={300}>
@@ -47,4 +47,4 @@ const RevChart = ({ thisApp }) => {
   );
 };
 
-export default RevChart;
+export default RatChart;

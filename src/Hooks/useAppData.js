@@ -6,10 +6,14 @@ const useAppData = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   useEffect(() => {
-    axios("../appData.json")
-      .then((data) => setAppData(data.data))
-      .catch((err) => setError(err))
-      .finally(() => setLoading(false));
+    setLoading(true);
+
+    setTimeout(() => {
+      axios("../appData.json")
+        .then((data) => setAppData(data.data))
+        .catch((err) => setError(err))
+        .finally(() => setLoading(false));
+    }, 1500);
   }, []);
 
   return { appData, loading, error };

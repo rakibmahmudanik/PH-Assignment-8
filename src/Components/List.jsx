@@ -27,12 +27,14 @@ const List = ({ listApp, listRemove }) => {
         <li className="list-row items-center">
           <div>
             <img
-              className="size-20 rounded-box object-cover"
+              className=" size-15 md:size-20 rounded-box object-cover"
               src={listApp.image}
             />
           </div>
           <div>
-            <div className="mb-2 text-xl font-semibold">{listApp.title}</div>
+            <div className="mb-2 text-md md:text-xl font-semibold">
+              {listApp.title}
+            </div>
             <div className="text-xs uppercase font-semibold opacity-60 flex items-center ">
               <span class="inline-flex items-center gap-1 text-green-600 text-xs font-medium px-2.5 py-1 rounded-md">
                 <FontAwesomeIcon icon={faDownload} />
