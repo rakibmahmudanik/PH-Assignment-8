@@ -1,4 +1,5 @@
-[![Netlify Status](https://img.shields.io/badge/Live%20Demo-heroio--rakib.netlify.app-00D390?style=for-the-badge&logo=netlify&logoColor=white)](https://heroio-rakib.netlify.app/)
+## 🚀 Live Demo
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Site-00D390?style=for-the-badge)](https://heroio-rakib.netlify.app/)
 # 📱 HERO.IO
 
 A modern app discovery platform where users can explore, review, and install their favorite apps.
